@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #1f2937;
+  padding-top: 24px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.nav-logo {
+  width: auto;
+  height: 80px;
+  border: #e5e7eb solid 2px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  margin-left: auto;
+  padding-top: 24px;
+}
+.link {
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #ffffff;
+  background-color: #1f2937;
+}
+
+.hero-description {
+  padding-right: 24px;
+  color: #e5e7eb;
+}
+
+.hero-img {
+  width: auto;
+  height: 200px;
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.information {
+  padding-top: 64px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 64px;
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.info-description {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding-top: 64px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 64px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.action {
+  padding-top: 64px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 64px;
+}
+
+.action-box {
+  background-color: #3882f6;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-text {
+  color: #e5e7eb;
+}
+
+.action-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 2px solid;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+}
